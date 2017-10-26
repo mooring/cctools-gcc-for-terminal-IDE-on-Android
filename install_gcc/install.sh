@@ -5,10 +5,15 @@ z=`pwd`
 unzip -qo libgcc-dev_4.9-1_armel.zip && wait $!
 unzip -qo libstdc++-dev-armel_4.9-1_all.zip && wait $!
 unzip -qo gmp_5.0.5_armel.zip && wait $!
+unzip -qo gmp-dev_5.0.5_armel.zip && wait $!
 unzip -qo isl_0.11.1_armel.zip && wait $!
+unzip -qo isl-dev_0.11.1_armel.zip && wait $!
 unzip -qo mpfr_3.1.1_armel.zip && wait $!
+unzip -qo mpfr-dev_3.1.1_armel.zip && wait $!
 unzip -qo cloog_0.18.0_armel.zip && wait $!
+unzip -qo cloog-dev_0.18.0_armel.zip && wait $!
 unzip -qo mpc_1.0.1_armel.zip && wait $!
+unzip -qo mpc-dev_1.0.1_armel.zip && wait $!
 unzip -qo gcc_4.9-1_armel.zip && wait $!
 
 chmod +x cctools/bin/*
