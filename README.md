@@ -6,6 +6,7 @@ the build-in `install_gcc` is as good as i known but with some library version o
 
 so I do an stupid thing to adopt the cctools's build tool-chain to Terminal IDE on Android
 
+
 ## Step
 
 1. copy all of those folders and files to your android diveces
@@ -19,6 +20,10 @@ so I do an stupid thing to adopt the cctools's build tool-chain to Terminal IDE 
 9. go to the projects folder, uncompress the hello.tgz by `tar xf hello.tgz`
 10. cd hello and `make`
 11. run your first hellowolrd program by `./hello`
+
+## Requirement 
+
+install the Terminal IDE first [Google Play Address](https://play.google.com/store/apps/details?id=com.spartacusrex.spartacuside)
 
 
 ## Screenshot
