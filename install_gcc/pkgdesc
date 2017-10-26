@@ -1,0 +1,11 @@
+    <package>
+	<name>cloog</name>
+	<replaces></replaces>
+	<version>0.18.0</version>
+	<arch>armel</arch>
+	<description>The CLooG Code Generator in the Polyhedral Model's Home</description>
+	<depends>gmp isl</depends>
+	<size>136312</size>
+	<file>cloog_0.18.0_armel.zip</file>
+	<filesize>@SIZE@</filesize>
+    </package>
