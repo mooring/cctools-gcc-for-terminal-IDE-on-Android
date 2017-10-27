@@ -22,8 +22,8 @@ so I do an stupid thing to adopt the cctools's build tool-chain to Terminal IDE 
 
 ## Comments
     
-    install gcc first , build_essential is optional, common tools is optional too
-    for detail , please read [depends tree](https://github.com/mooring/cctools-gcc-for-terminal-IDE-on-Android/blob/master/depends-tree?raw=true)
+install gcc first , build_essential is optional, common tools is optional too
+    for detail , please read [Depends tree.pdf](https://github.com/mooring/cctools-gcc-for-terminal-IDE-on-Android/blob/master/depends-tree?raw=true) for detail
 
 ## Requirement 
 
