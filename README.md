@@ -1,10 +1,10 @@
-# cctools-gcc-for-terminal-IDE-on-Android
+# CCTOOLS's gcc for Terminal IDE on Android
 
 Terminal IDE App gives you the ability to runing shell in its env
 
-the build-in `install_gcc` is as good as i known but with some library version old
+The build-in gcc toolchain which is installed by `install_gcc` is as good as I known but with some library version old or lib missing.
 
-so I do an stupid thing to adopt the cctools's build tool-chain to Terminal IDE on Android
+So I do a stupid thing to adopt the cctools's build tool-chain to Terminal IDE on Android
 
 
 ## Step
