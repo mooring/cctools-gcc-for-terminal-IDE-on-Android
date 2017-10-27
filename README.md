@@ -15,11 +15,15 @@ so I do an stupid thing to adopt the cctools's build tool-chain to Terminal IDE 
 4. in shell, mv all of the folders/files above to the shell `$HOME` folder
 5. `cd install_gcc && sh install.sh && cd ..`
 6. `cd install_build_essential && sh install.sh && cd ..`
-7. `sh updatelink.sh`
 8. `mv` hello.tgz the projects folder
 9. go to the projects folder, uncompress the hello.tgz by `tar xf hello.tgz`
 10. cd hello and `make`
 11. run your first hellowolrd program by `./hello`
+
+## Comments
+    
+    install gcc first , build_essential is optional, common tools is optional too
+    for detail , please read [depends tree](https://github.com/mooring/cctools-gcc-for-terminal-IDE-on-Android/blob/master/depends-tree?raw=true)
 
 ## Requirement 
 
