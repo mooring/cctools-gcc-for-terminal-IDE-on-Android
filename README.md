@@ -1,6 +1,6 @@
 # CCTOOLS's gcc for Terminal IDE on Android
 
-Terminal IDE App gives you the ability to runing shell in its env
+Terminal IDE App gives you the ability to run shell in its env
 
 The build-in gcc toolchain which is installed by `install_gcc` is as good as I known but with some library version old or lib missing.
 
