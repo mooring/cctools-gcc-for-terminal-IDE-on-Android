@@ -5,10 +5,8 @@ chmod +x ./unzip
 find . -regex '.*\.zip' -exec sh -c "./unzip -o \"{}\" -d ~/" \;
 
 export PATH=~/cctools/bin
-export CCTOOLSDIR=~/cctools
-sh ~/cctools/prerm
-sh ~/cctools/postinst
-rm -f ~/cctools/postinst ~/cctools/prerm ~/cctools/pkgdesc
+export CCTOOLSDIR=~/cctools && sh ~/cctools/bin/set-default-compiler-gcc
+
 
 touch ~/.bash_aliases
 sed -i '/cctools/d' ~/.bash_aliases
