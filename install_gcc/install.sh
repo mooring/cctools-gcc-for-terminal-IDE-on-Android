@@ -8,7 +8,7 @@ export PATH=~/cctools/bin
 export CCTOOLSDIR=~/cctools
 sh ~/cctools/prerm
 sh ~/cctools/postinst
-rm -f ~/cctools/postinst ~/cctools/prerm
+rm -f ~/cctools/postinst ~/cctools/prerm ~/cctools/pkgdesc
 
 sed -i '/cctools/d' ~/.bash_aliases
 echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/cctools/lib' >> ~/.bash_aliases
